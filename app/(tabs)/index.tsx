@@ -398,13 +398,13 @@ const ComponentFunction = function () {
             flex: 1,
             alignItems: "center",
             justifyContent: "center",
-            backgroundColor: "#F5F7FB",
+            backgroundColor: "#F0FDF4",
             padding: 24,
           },
         },
         React.createElement(ActivityIndicator, {
           size: "large",
-          color: "#6D5BD0",
+          color: "#16A34A",
         }),
         React.createElement(
           Text,
@@ -509,17 +509,17 @@ const ComponentFunction = function () {
     return { takePhoto: takePhoto, pickImage: pickImage };
   };
 
-  const primaryColor = "#24304F"; // Academic Navy
-  const accentColor = "#6D5BD0"; // Dusty Purple
-  const backgroundColor = "#F5F7FB"; // Cool Study Mist
+  const primaryColor = "#14532D"; // Forest Green
+  const accentColor = "#16A34A"; // Study Green
+  const backgroundColor = "#F0FDF4"; // Mint Mist
   const cardColor = "#FFFFFF"; // Soft White
   const textPrimary = "#1E293B"; // Deep Slate
   const textSecondary = "#64748B"; // Slate Grey
 
-  const navyDark = "#1B2542";
-  const purpleSoft = "#7A5FD6";
-  const lavenderMist = "#F0EEFF";
-  const periwinkle = "#8EA4D2";
+  const navyDark = "#052E16";
+  const purpleSoft = "#22C55E";
+  const lavenderMist = "#DCFCE7";
+  const periwinkle = "#86EFAC";
   const borderColor = "#DDE3EE";
   const disabledColor = "#94A3B8";
 
@@ -531,9 +531,9 @@ const ComponentFunction = function () {
   const ThemeContext = React.createContext({
     theme: {
       colors: {
-        primary: "#24304F",
-        accent: "#6D5BD0",
-        background: "#F5F7FB",
+        primary: "#14532D",
+        accent: "#16A34A",
+        background: "#F0FDF4",
         card: "#FFFFFF",
         textPrimary: "#1E293B",
         textSecondary: "#64748B",
@@ -542,10 +542,10 @@ const ComponentFunction = function () {
         error: "#DC2626",
         warning: "#F97316",
         disabled: "#94A3B8",
-        lavender: "#F0EEFF",
-        periwinkle: "#8EA4D2",
-        navyDark: "#1B2542",
-        purpleSoft: "#7A5FD6",
+        lavender: "#DCFCE7",
+        periwinkle: "#86EFAC",
+        navyDark: "#052E16",
+        purpleSoft: "#22C55E",
       },
     },
   });
@@ -555,9 +555,9 @@ const ComponentFunction = function () {
       return {
         colors: {
           // v6 fix: use literal values here so ThemeProvider never crashes if Expo Router/Hermes loses access to local color constants.
-          primary: "#24304F",
-          accent: "#6D5BD0",
-          background: "#F5F7FB",
+          primary: "#14532D",
+          accent: "#16A34A",
+          background: "#F0FDF4",
           card: "#FFFFFF",
           textPrimary: "#1E293B",
           textSecondary: "#64748B",
@@ -566,10 +566,10 @@ const ComponentFunction = function () {
           error: "#DC2626",
           warning: "#F97316",
           disabled: "#94A3B8",
-          lavender: "#F0EEFF",
-          periwinkle: "#8EA4D2",
-          navyDark: "#1B2542",
-          purpleSoft: "#7A5FD6",
+          lavender: "#DCFCE7",
+          periwinkle: "#86EFAC",
+          navyDark: "#052E16",
+          purpleSoft: "#22C55E",
         },
       };
     }, []);
@@ -2198,8 +2198,8 @@ const ComponentFunction = function () {
     const overlayWidth = props.region.width * props.contentWidth;
     const overlayHeight = props.region.height * props.contentHeight;
 
-    const handleColor = "#6D5BD0";
-    const borderColor = props.isSelected ? "#6D5BD0" : "#FFFFFF";
+    const handleColor = "#16A34A";
+    const borderColor = props.isSelected ? "#16A34A" : "#FFFFFF";
 
     return React.createElement(
       View,
@@ -20452,7 +20452,7 @@ const ComponentFunction = function () {
       borderRadius: 26,
       alignItems: "center",
       justifyContent: "center",
-      backgroundColor: "#F0EEFF",
+      backgroundColor: "#DCFCE7",
     },
     heroCard: {
       borderWidth: 0,
